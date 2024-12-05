@@ -21,7 +21,7 @@ public class PlayerRotation : MonoBehaviour
     private void HandleRotation()
     {
         mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition) - playerTransform.position;
-        //diff.Normalize();
+        mousePos.Normalize();
         float rot_z = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
         gameObject.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
     }
