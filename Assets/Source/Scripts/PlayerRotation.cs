@@ -20,10 +20,7 @@ public class PlayerRotation : MonoBehaviour
 
     private void HandleRotation()
     {
-        mousePos = mainCamera.ScreenToWorldPoint(new Vector3(
-            Input.mousePosition.x,
-            Input.mousePosition.y,
-            Mathf.Abs(playerTransform.position.z - mainCamera.transform.position.z)));
+        mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         
         Vector3 diff = mousePos - playerTransform.position;
         diff.Normalize();
