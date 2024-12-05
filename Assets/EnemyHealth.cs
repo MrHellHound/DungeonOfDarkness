@@ -25,18 +25,17 @@ public class EnemyHealth : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
 
-        if (other.CompareTag("Bullet"))
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
         {
             currentHealth -= damage;
             Convert.ToInt32(healthBar.value);
             
             healthBar.value = currentHealth;
             
-            Debug.Log(healthBar.value);
-            
-            
-
             if (currentHealth <= 0)
             {
                 Destroy(gameObject);

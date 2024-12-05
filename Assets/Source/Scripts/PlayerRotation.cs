@@ -13,18 +13,16 @@ public class PlayerRotation : MonoBehaviour
         mainCamera = Camera.main;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         HandleRotation();
     }
 
     private void HandleRotation()
     {
-        mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-        
-        Vector3 diff = mousePos - playerTransform.position;
-        diff.Normalize();
-        float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+        mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition) - playerTransform.position;
+        //diff.Normalize();
+        float rot_z = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
         gameObject.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
     }
 }

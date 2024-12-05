@@ -9,7 +9,6 @@ public class Gun : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform bulletSpawnPoint;
     
-    public PlayerMovement playerMovement;
     public PlayerRotation playerRotation;
     
     private bool _isReadyToShoot = true;
@@ -25,7 +24,7 @@ public class Gun : MonoBehaviour
         { 
             StartCoroutine(ShootCooldown());
             
-            Vector3 diff = playerRotation.mousePos - playerMovement.transform.position;
+            Vector3 diff = playerRotation.mousePos;
             
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
            
