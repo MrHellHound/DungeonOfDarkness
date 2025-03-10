@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Bullet
   - PlayerMelee
+  - Pause
   layers:
   - Default
   - TransparentFX
