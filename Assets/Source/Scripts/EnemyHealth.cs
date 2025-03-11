@@ -4,15 +4,19 @@ using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public Slider healthBar;
+    [SerializeField] Slider healthBar;
     
-    public int healthMax = 100;
-    public int currentHealth;
+    [SerializeField] int healthMax = 100;
+    [SerializeField] int currentHealth;
     
-    public int damage = 50;
+    [SerializeField] int damage = 50;
+
+    private EnemyCounter _enemyCounter;
 
     private void Awake()
     {
+        _enemyCounter = GameObject.FindWithTag("GameLogic").GetComponent<EnemyCounter>();
+        
         currentHealth = healthMax;
         
         healthBar.maxValue = healthMax;
@@ -23,6 +27,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (other.CompareTag("PlayerMelee"))
         {
+            _enemyCounter.UpdateUI();
             Destroy(gameObject);
         }
     }
@@ -38,6 +43,7 @@ public class EnemyHealth : MonoBehaviour
             
             if (currentHealth <= 0)
             {
+                _enemyCounter.UpdateUI();
                 Destroy(gameObject);
             }
         }

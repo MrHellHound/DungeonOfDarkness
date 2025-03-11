@@ -14,9 +14,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/LevelRestart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@16.0.5/Editor/Settings/DefaultVolumeProfileEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://F:/Unity/Unity Projects/2D Shooter/Assets/Scripts/Gun.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../MinecraftFight/Assets/Source/Scripts/EnemyCounter.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -94,6 +93,7 @@
       <workItem from="1733383432054" duration="22000" />
       <workItem from="1733385679521" duration="14220000" />
       <workItem from="1741607998905" duration="2000" />
+      <workItem from="1741691552933" duration="2345000" />
     </task>
     <servers />
   </component>

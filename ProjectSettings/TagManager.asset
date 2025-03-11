@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - PlayerMelee
   - Pause
+  - GameLogic
   layers:
   - Default
   - TransparentFX
