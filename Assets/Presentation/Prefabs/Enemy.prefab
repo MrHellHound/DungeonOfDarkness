@@ -596,3 +596,4 @@ MonoBehaviour:
   healthMax: 100
   currentHealth: 0
   damage: 50
+  enemyColor: {fileID: 6006564903988966287}
