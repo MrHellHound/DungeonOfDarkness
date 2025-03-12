@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -30,10 +29,12 @@ public class Pause : MonoBehaviour
     {
         int sceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(sceneIndex);
+        Time.timeScale = 1f;
     }
 
     public void OnMainMenuButtonClick()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
     }
 }
