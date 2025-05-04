@@ -39,6 +39,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/OneDrive/Рабочий стол/DungeonOfDarkness\DungeonOfDarkness.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Spiri\OneDrive\Рабочий стол\DungeonOfDarkness" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\Unity\Unity Editor\2023.2.10f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\Unity\Projects\DungeonOfDarkness\DungeonOfDarkness -debugCodeOptimization" />
@@ -95,6 +103,7 @@
       <workItem from="1741607998905" duration="2000" />
       <workItem from="1741691552933" duration="2345000" />
       <workItem from="1741786047063" duration="2834000" />
+      <workItem from="1746363282116" duration="635000" />
     </task>
     <servers />
   </component>

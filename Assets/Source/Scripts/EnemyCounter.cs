@@ -30,5 +30,4 @@ public class EnemyCounter : MonoBehaviour
             door.SetActive(false);
         }
     }
-    
 }
