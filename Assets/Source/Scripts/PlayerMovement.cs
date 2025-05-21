@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -17,5 +19,14 @@ public class PlayerMovement : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
         
         _rb.velocity = new Vector2(horizontal, vertical) * walkSpeed;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("EnemyBullet"))
+        {
+            int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(sceneIndex);
+        }
     }
 }
