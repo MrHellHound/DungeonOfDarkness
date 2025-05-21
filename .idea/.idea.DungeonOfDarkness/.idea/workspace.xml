@@ -14,8 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/KeyCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/KeyScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@16.0.5/Editor/Settings/DefaultVolumeProfileEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../MinecraftFight/Assets/Source/Scripts/EnemyCounter.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -105,6 +106,7 @@
       <workItem from="1741786047063" duration="2834000" />
       <workItem from="1746363282116" duration="635000" />
       <workItem from="1747773603289" duration="4190000" />
+      <workItem from="1747793695509" duration="1838000" />
     </task>
     <servers />
   </component>
