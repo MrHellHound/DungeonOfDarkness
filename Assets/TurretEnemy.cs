@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class TurretEnemy : MonoBehaviour
 {
-    [SerializeField] private Transform playerTransform;
-    
     [SerializeField] private float timeBetweenShots = 1f;
     [SerializeField] private float bulletSpeed = 10f;
     
@@ -12,6 +10,12 @@ public class TurretEnemy : MonoBehaviour
     [SerializeField] private Transform bulletSpawnPoint;
     
     private bool _isReadyToShoot = true;
+    private Transform _playerTransform;
+
+    private void Awake()
+    {
+        _playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+    }
 
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -24,7 +28,7 @@ public class TurretEnemy : MonoBehaviour
 
     private void HandleRotation()
     {
-        Vector3 direction = playerTransform.position - transform.position;
+        Vector3 direction = _playerTransform.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
     }
@@ -36,7 +40,7 @@ public class TurretEnemy : MonoBehaviour
             StartCoroutine(ShootCooldown());
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
             
-            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpeed * (playerTransform.position - bulletSpawnPoint.position).normalized * bulletSpeed;
+            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpeed * (_playerTransform.position - bulletSpawnPoint.position).normalized * bulletSpeed;
         }
     }
 
