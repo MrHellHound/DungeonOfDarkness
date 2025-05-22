@@ -3046,10 +3046,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6842391148299584843, guid: 8c8dbd69095bf9c44ab9c40f3bcbdb91, type: 3}
-      propertyPath: playerTransform
-      value: 
-      objectReference: {fileID: 990734198}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8391,10 +8387,6 @@ PrefabInstance:
     - target: {fileID: 5676926609991528956, guid: 8a0e656cb2c768b479d416e6f211d1d9, type: 3}
       propertyPath: m_Name
       value: GameLogic
-      objectReference: {fileID: 0}
-    - target: {fileID: 5676926609991528956, guid: 8a0e656cb2c768b479d416e6f211d1d9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8297457865014461813, guid: 8a0e656cb2c768b479d416e6f211d1d9, type: 3}
       propertyPath: m_LocalPosition.x

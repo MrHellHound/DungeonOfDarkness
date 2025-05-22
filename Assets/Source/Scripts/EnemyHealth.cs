@@ -34,7 +34,7 @@ public class EnemyHealth : MonoBehaviour
         }
         else if (randomAmount == 2)
         {
-            healthMax = 200;
+            healthMax = 150;
             heavyModel.SetActive(true);
         }
         
