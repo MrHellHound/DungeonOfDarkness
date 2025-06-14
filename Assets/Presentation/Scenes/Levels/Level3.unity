@@ -2827,7 +2827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -2839,23 +2839,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
@@ -5082,7 +5082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -5094,23 +5094,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
@@ -8818,7 +8818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -8830,23 +8830,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
@@ -11630,7 +11630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -11642,23 +11642,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
@@ -16642,7 +16642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -16654,23 +16654,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
@@ -22549,7 +22549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -22561,23 +22561,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
@@ -23411,7 +23411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -23423,23 +23423,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
@@ -24597,7 +24597,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
+      propertyPath: m_ShadowSoftness
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -24609,23 +24613,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
@@ -29298,7 +29302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Intensity
-      value: 0.68
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShadowIntensity
@@ -29310,23 +29314,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_ShapeLightFalloffSize
-      value: 1.46
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -0.00025004148
+      value: -0.0002501011
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00009995699
+      value: -0.000100016594
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 1.9604499
+      value: 2.65045
       objectReference: {fileID: 0}
     - target: {fileID: 7618119617290088043, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9609001
+      value: 2.6509
       objectReference: {fileID: 0}
     - target: {fileID: 8800940964663464909, guid: ea36f642be4cc924aa18fd715167a62d, type: 3}
       propertyPath: m_Name
